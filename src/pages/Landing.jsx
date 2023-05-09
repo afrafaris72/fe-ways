@@ -26,7 +26,7 @@ function Landing(props) {
             }
           </div>
         </div>
-        <img src="/images/landing-page.webp" alt="landing page" className="animate__animated animate__zoomIn tw-w-6/12 tw-object-contain tw-hidden md:tw-inline" />
+        <img src="/images/landing-page.webp" alt="landing page" className="animate__animated animate__rotateIn tw-w-6/12 tw-object-contain tw-hidden md:tw-inline" />
         <img src="/images/landing-page-top-left.webp" alt="landing page top left" className="animate__animated animate__slideInDown tw-fixed tw-top-0 tw-left-0 tw-w-2/12 md:tw-w-3/12" />
         <img src="/images/landing-page-bottom-left.webp" alt="landing page bottom left" className="animate__animated animate__slideInLeft tw-fixed tw-bottom-0 tw-left-0 tw-w-2/12 md:tw-w-3/12" />
         <img src="/images/landing-page-bottom-right.webp" alt="landing page bottom-right" className="animate__animated animate__slideInRight tw-fixed tw-bottom-0 tw-right-0 tw-w-2/12 md:tw-w-3/12" />

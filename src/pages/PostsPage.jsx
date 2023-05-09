@@ -91,7 +91,7 @@ function PostsPage(props) {
                     <div key={index} className="tw-w-full md:tw-w-3/12">
                       {
                         postGroup.map((post, index) => (
-                          <img onClick={() => navigate(`/posts/${post.id}`)} key={index} src={post.image_1} alt={post.title} className="animate__animated animate__zoomIn tw-w-full tw-p-1 tw-object-contain tw-border-md hover:tw-opacity-75 tw-cursor-pointer" />
+                          <img onClick={() => navigate(`/posts/${post.id}`)} key={index} src={post.image_1} alt={post.title} className="animate__animated animate__jello tw-w-full tw-p-1 tw-object-contain tw-border-md hover:tw-opacity-75 tw-cursor-pointer" />
                         ))
                       }
                     </div>

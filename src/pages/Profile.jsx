@@ -56,7 +56,7 @@ export default function Profile(props) {
       <Container className="tw-min-h-full">
         {/* <img src="/images/icon-profile-background.png" alt="Latest Post Background" className="tw-absolute tw-right-0 tw-top-0 tw-z-[-1] tw-hidden lg:tw-block" /> */}
         <div className="tw-mt-28 tw-flex tw-flex-wrap tw-justify-between tw-items-center">
-          <div className="animate__animated animate__slideInLeft tw-w-full md:tw-w-5/12 tw-flex tw-flex-col tw-items-center md:tw-items-start">
+          <div className="animate__animated animate__bounceInLeft tw-w-full md:tw-w-5/12 tw-flex tw-flex-col tw-items-center md:tw-items-start">
             {Profile === undefined || Profile.image === "" || Profile.image === undefined || Profile.image === null ? (
               <img src="/images/icon-user.png" alt="Profile Icon Default" className="!tw-rounded-full !tw-cursor-pointer !tw-object-cover !tw-w-28 !tw-h-28 !tw-bg-custom-secondary tw-mb-4"/>
             ) : (
@@ -91,7 +91,7 @@ export default function Profile(props) {
             Profile !== undefined || Profile?.arts.length > 0 ? (
               <>
                 {Profile.arts.sort((a, b) => b.id - a.id).map((art, index) => (
-                  <img key={index} onClick={() => props.handleShowModalImageEnlarger(art.image)} src={art.image} alt={`Work ${index+1}`} className="animate__animated animate__zoomIn tw-object-cover tw-p-2.5 tw-rounded tw-w-full md:tw-w-3/12 tw-h-60 tw-cursor-pointer" />
+                  <img key={index} onClick={() => props.handleShowModalImageEnlarger(art.image)} src={art.image} alt={`Work ${index+1}`} className="animate__animated animate__heartBeat tw-object-cover tw-p-2.5 tw-rounded tw-w-full md:tw-w-3/12 tw-h-60 tw-cursor-pointer" />
                 ))}
                 {
                   props.LoggedInUserId === parseInt(params.id) && (

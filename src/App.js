@@ -222,8 +222,8 @@ function App() {
     <>
       {isLoading ? (
         <div className="tw-flex tw-justify-center tw-items-center" style={{width:"100vw",height:"100vh"}}>
-          <img src="/images/title.webp" alt="WaysGallery" className="tw-animate-ping tw-absolute"/>
-          <img src="/images/title.webp" alt="WaysGallery" className="tw-relative"/>
+          <img src="/images/title.webp" alt="WaysGallery" className="tw-animate-bounce tw-absolute"/>
+          {/* <img src="/images/title.webp" alt="WaysGallery" className="tw-relative"/> */}
         </div>
       ) : 
         <>
