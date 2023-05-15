@@ -158,7 +158,7 @@ export default function UploadPost(props) {
           {image1 === "" ? (
               <label for="image1" className="tw-border-4 tw-border-custom-secondary-dark hover:tw-border-custom-primary tw-p-5 tw-border-dashed tw-rounded tw-flex tw-flex-col tw-justify-center tw-items-center tw-mt-28 tw-cursor-pointer">
                 <img src="/images/icon-cloud-upload.png" alt="Post Preview 1" className="tw-object-contain"/>
-                <p><strong className="tw-text-custom-primary">Browse</strong> to choose a file</p>
+                <p><strong className="tw-text-custom-primary">Please</strong> to choose a file</p>
               </label>
             ) : (
               <label for="image1" className="tw-flex tw-flex-col tw-justify-center tw-items-center tw-mt-28 tw-cursor-pointer tw-rounded">

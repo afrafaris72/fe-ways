@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const API = axios.create({
-    baseURL:"https://apra.elemen.web.id/api/v1/",
+    baseURL:"https://be-ways-production.up.railway.app/api/v1/",
 });
 
 
